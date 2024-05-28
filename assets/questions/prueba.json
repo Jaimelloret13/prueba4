@@ -1,0 +1,381 @@
+{
+  "sections": [
+    {
+      "title": "Variables",
+      "description": "Aprende sobre la declaración y uso de variables.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Una variable puede cambiar su valor durante la ejecución del programa.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es el tipo de dato correcto para almacenar un número decimal en Dart?",
+            "options": ["int", "double", "String", "bool"],
+            "answer": "double"
+          },
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "int numero = 'cinco';",
+            "hint": "El tipo de dato no coincide con el valor asignado.",
+            "answer": "int numero = 5;"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para declarar y asignar una variable en Dart:",
+            "code": "_____ miVariable = 10;",
+            "options": ["int", "double", "String", "bool"],
+            "answer": "int"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "verdadero_falso",
+            "question": "El siguiente código imprime 'Hola Mundo': if (5 > 3) { print('Hola Mundo'); }",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es el operador correcto para la igualdad en Dart?",
+            "options": ["=", "==", "===", "!="],
+            "answer": "=="
+          },
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "if (5 = 3) { print('Error'); }",
+            "hint": "Revisa el operador de comparación.",
+            "answer": "Debe ser if (5 == 3) { print('Error'); }"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para verificar si una variable es positiva:",
+            "code": "if (miNumero ____ 0) { print('Positivo'); }",
+            "options": [">", "<", "==", ">="],
+            "answer": ">"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una función en Dart que reciba dos números y retorne su suma.",
+            "answer": "int suma(int a, int b) { return a + b; }"
+          },
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "void main() { print('Hola Mundo); }",
+            "hint": "Revisa las comillas.",
+            "answer": "Debe ser print('Hola Mundo');"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Condicionales",
+      "description": "Aprende sobre el uso de condicionales.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "El siguiente código imprime 'Hola Mundo': if (true) { print('Hola Mundo'); }",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es el operador correcto para comparar si dos valores son iguales?",
+            "options": ["=", "==", "===", "!="],
+            "answer": "=="
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "if (true) { print('Hola Mundo') }",
+            "hint": "Falta un punto y coma.",
+            "answer": "Debe ser if (true) { print('Hola Mundo'); }"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para verificar si una variable es positiva:",
+            "code": "if (miNumero ____ 0) { print('Positivo'); }",
+            "options": [">", "<", "==", ">="],
+            "answer": ">"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe un condicional en Dart que verifique si un número es par o impar.",
+            "answer": "if (numero % 2 == 0) { print('Par'); } else { print('Impar'); }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Bucles",
+      "description": "Aprende sobre el uso de bucles.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "El siguiente código imprime los números del 1 al 5: for (int i = 1; i <= 5; i++) { print(i); }",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es el bucle correcto para iterar desde 0 hasta 9?",
+            "options": ["for (int i = 0; i < 10; i++)", "for (int i = 0; i <= 9; i++)", "for (int i = 1; i < 10; i++)"],
+            "answer": "for (int i = 0; i < 10; i++)"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "for (int i = 0; i < 5; i++) { print(i) }",
+            "hint": "Falta un punto y coma.",
+            "answer": "Debe ser for (int i = 0; i < 5; i++) { print(i); }"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para iterar desde 0 hasta 5:",
+            "code": "for (int i = 0; i ____ 5; i++) { print(i); }",
+            "options": ["<", "<=", "==", ">"],
+            "answer": "<="
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe un bucle en Dart que imprima los números del 10 al 1.",
+            "answer": "for (int i = 10; i > 0; i--) { print(i); }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Funciones",
+      "description": "Aprende sobre la creación y uso de funciones.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Una función en Dart puede no retornar ningún valor.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es la palabra clave para definir una función en Dart?",
+            "options": ["func", "function", "void", "def"],
+            "answer": "void"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "int suma(int a, int b) { return a + b }",
+            "hint": "Falta un punto y coma.",
+            "answer": "Debe ser int suma(int a, int b) { return a + b; }"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para definir una función que multiplique dos números:",
+            "code": "_____ multiplicar(int a, int b) { return a * b; }",
+            "options": ["func", "function", "int", "void"],
+            "answer": "int"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una función recursiva en Dart para calcular el factorial de un número.",
+            "answer": "int factorial(int n) { if (n <= 1) return 1; else return n * factorial(n - 1); }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Listas",
+      "description": "Aprende sobre el manejo de listas.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Una lista en Dart puede contener diferentes tipos de datos.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es la sintaxis correcta para declarar una lista de enteros en Dart?",
+            "options": ["List<int> numeros = [1, 2, 3];", "int[] numeros = [1, 2, 3];", "Array numeros = [1, 2, 3];"],
+            "answer": "List<int> numeros = [1, 2, 3];"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "List<int> numeros = [1, 2, 3, 4, 5;",
+            "hint": "Revisa los corchetes.",
+            "answer": "Debe ser List<int> numeros = [1, 2, 3, 4, 5];"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para añadir un elemento a la lista:",
+            "code": "numeros.____(6);",
+            "options": ["add", "append", "insert", "push"],
+            "answer": "add"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una función en Dart que reciba una lista de enteros y retorne la lista ordenada en orden descendente.",
+            "answer": "List<int> ordenarDescendente(List<int> numeros) { numeros.sort((a, b) => b.compareTo(a)); return numeros; }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Conjuntos",
+      "description": "Aprende sobre el uso de conjuntos.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Un conjunto en Dart no permite elementos duplicados.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es la sintaxis correcta para declarar un conjunto de enteros en Dart?",
+            "options": ["Set<int> numeros = {1, 2, 3};", "int[] numeros = {1, 2, 3};", "Array numeros = {1, 2, 3};"],
+            "answer": "Set<int> numeros = {1, 2, 3};"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "Set<int> numeros = {1, 2, 3, 4, 5;",
+            "hint": "Revisa las llaves.",
+            "answer": "Debe ser Set<int> numeros = {1, 2, 3, 4, 5};"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para añadir un elemento al conjunto:",
+            "code": "numeros.____(6);",
+            "options": ["add", "append", "insert", "push"],
+            "answer": "add"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una función en Dart que reciba dos conjuntos de enteros y retorne su intersección.",
+            "answer": "Set<int> interseccion(Set<int> a, Set<int> b) { return a.intersection(b); }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Diccionarios",
+      "description": "Aprende sobre el manejo de diccionarios.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Un diccionario en Dart permite claves duplicadas.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Falso"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es la sintaxis correcta para declarar un diccionario en Dart?",
+            "options": ["Map<String, int> edad = {'Alice': 25, 'Bob': 30};", "dict edad = {'Alice': 25, 'Bob': 30};", "HashMap edad = {'Alice': 25, 'Bob': 30};"],
+            "answer": "Map<String, int> edad = {'Alice': 25, 'Bob': 30};"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "Map<String, int> edad = {'Alice': 25, 'Bob': 30;",
+            "hint": "Revisa las llaves.",
+            "answer": "Debe ser Map<String, int> edad = {'Alice': 25, 'Bob': 30};"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para añadir un elemento al diccionario:",
+            "code": "edad.____('Charlie', 35);",
+            "options": ["add", "append", "insert", "put"],
+            "answer": "put"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una función en Dart que reciba un diccionario y retorne una lista con todas las claves.",
+            "answer": "List<String> obtenerClaves(Map<String, int> dict) { return dict.keys.toList(); }"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Clases y Objetos",
+      "description": "Aprende sobre la programación orientada a objetos.",
+      "difficulty_levels": {
+        "easy": [
+          {
+            "type": "verdadero_falso",
+            "question": "Una clase en Dart puede tener múltiples constructores.",
+            "options": ["Verdadero", "Falso"],
+            "answer": "Verdadero"
+          },
+          {
+            "type": "opciones_multiples",
+            "question": "¿Cuál es la palabra clave para definir una clase en Dart?",
+            "options": ["class", "struct", "object", "define"],
+            "answer": "class"
+          }
+        ],
+        "intermediate": [
+          {
+            "type": "deteccion_errores",
+            "question": "Encuentra el error en el siguiente código:",
+            "code": "class Persona { String nombre; int edad; Persona(this.nombre, this.edad); }",
+            "hint": "Revisa los punto y coma.",
+            "answer": "Debe ser class Persona { String nombre; int edad; Persona(this.nombre, this.edad); }"
+          },
+          {
+            "type": "completar_codigo",
+            "question": "Completa el siguiente código para definir una clase con un método:",
+            "code": "class Coche { String marca; Coche(this.marca); void mostrarMarca() { print(marca); } }",
+            "options": ["String", "class", "void", "method"],
+            "answer": "class"
+          }
+        ],
+        "advanced": [
+          {
+            "type": "entrada_libre",
+            "question": "Escribe una clase en Dart que represente un Rectángulo con métodos para calcular el área y el perímetro.",
+            "answer": "class Rectangulo { double largo, ancho; Rectangulo(this.largo, this.ancho); double area() => largo * ancho; double perimetro() => 2 * (largo + ancho); }"
+          }
+        ]
+      }
+    }
+  ]
+}

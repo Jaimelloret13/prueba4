@@ -1,0 +1,19 @@
+{
+    "questions": [
+    {
+        "type": "programming",
+        "question": "¿Tiene experiencia previa en programación?",
+        "options": ["Sí", "No"]
+    },
+    {
+        "type": "programming",
+        "question": "¿Ha tomado algún curso o taller de programación?",
+        "options": ["Sí", "No"]
+    },
+    {
+        "type": "programming",
+        "question": "¿Qué lenguajes de programación conoce?",
+        "options": ["Python", "Java", "C++", "JavaScript"]
+    }
+    ]
+}
